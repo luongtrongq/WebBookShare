@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagramSquare, FaInvision, FaYoutube } from 'react-icon
 import "./css/style.css"
 export default function HeaderVietcetera() {
     return (
-        <div className="banner-header text-center">
+        <div className="banner-header ">
             <div>
                 <img src="./img/Header/banner.png" />
             </div>
