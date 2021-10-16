@@ -1,0 +1,37 @@
+* {
+  font-family: "Ephesis", cursive;
+}
+
+.loginout {
+  gap: 20px;
+}
+.vixmi {
+  font-size: 100px;
+  font-weight: 600;
+}
+.navigation ul {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.navigation li {
+  flex-direction: row;
+  list-style: none;
+}
+.navigation ul li a {
+  color: black;
+  text-decoration: none;
+}
+.navigation ul li a:hover {
+  border-bottom: 0.5px solid black;
+}
+.card-general {
+  margin-top: 30px;
+}
+.colmd4 {
+  max-width: 28% !important;
+}
+.colmd3 .pic {
+  margin-top: 30px;
+}
