@@ -3,6 +3,8 @@ import { BsSearch } from 'react-icons/bs';
 import { AiOutlineMenu } from "react-icons/ai"
 import VietContent from './VietceteraContent';
 import "./css/style.css"
+
+import { Link, NavLink } from 'react-router-dom';
 export default function Vietcetera() {
     return (
         <div className="mt-5 container">
@@ -10,8 +12,11 @@ export default function Vietcetera() {
                 <h1 className="vixmi">VixMi.</h1>
                 <div className=" loginout d-flex  justify-content-end align-items-center">
                     <button className="btn btn-light"><BsSearch /></button>
-                    <button className="btn btn-light"> Đăng ký</button>
-                    <button className="btn btn-success">Đăng nhập</button>
+
+                    <button className="btn btn-light">
+                        <Link style={{ color: "black" }} type="btn btn dark" to="/signup" > Đăng ký</Link></button>
+
+                    <button className="btn btn-success"><Link style={{ color: "white" }} type="btn btn dark" to="/signin" > Đăng nhập</Link></button>
                     <div className="dropdown">
                         <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <AiOutlineMenu />

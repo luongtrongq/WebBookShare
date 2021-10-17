@@ -4,7 +4,7 @@ export default function VideoSection() {
     return (
         <div className="mt-5 container">
             <div className="d-flex justify-content-between align-items-center">
-                <h1 className="titleVideo" >Video</h1>
+                <h1 className="titleVideo" >VIDEO</h1>
                 <h5><a href="#">Xem tất cả video</a> </h5>
             </div>
             <div className="row">

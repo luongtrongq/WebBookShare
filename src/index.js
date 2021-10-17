@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "jquery/dist/jquery.min.js";
 import "popper.js/dist/umd/popper.min.js";
 import "bootstrap/dist/js/bootstrap.min.js";
+import '../node_modules/font-awesome/css/font-awesome.min.css';
 <style dangerouslySetInnerHTML={{ __html: "\n@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');\n" }} />
 
 ReactDOM.render(
