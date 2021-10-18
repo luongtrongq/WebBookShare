@@ -16,7 +16,8 @@ export default function Vietcetera() {
                     <button className="btn btn-light">
                         <Link style={{ color: "black" }} type="btn btn dark" to="/signup" > Đăng ký</Link></button>
 
-                    <button className="btn btn-success"><Link style={{ color: "white" }} type="btn btn dark" to="/signin" > Đăng nhập</Link></button>
+                    <button className="btn btn-success"><Link style={{ color: "white" }} type="btn btn-dark" to="/signin" > Đăng nhập</Link></button>
+                    <button className="btn btn-warning"><Link style={{ color: "black" }} type="btn btn" to="/salebook" > Mua Sách</Link></button>
                     <div className="dropdown">
                         <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <AiOutlineMenu />

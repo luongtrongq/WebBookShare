@@ -1,0 +1,142 @@
+.content-book {
+  max-height: 700px;
+}
+.list-top ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.list-top i {
+  color: yellowgreen;
+}
+.list-top ul li a {
+  color: white;
+  padding: 0px 10px 0;
+}
+.header-book {
+  height: 180px;
+  background-color: #2c55a5;
+  background: #2c55a5
+    url("https://newshop.vn/public/assets/frontend/img/line-header.png")
+    no-repeat bottom;
+  /* border-bottom: url("https://newshop.vn/public/assets/frontend/img/line-header.png"); */
+}
+.form-findbook {
+  position: relative;
+  margin: 0;
+}
+.find {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#inputState {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 70px;
+  font-size: 11px;
+
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.findButton {
+  font-size: 11px;
+  color: white;
+  background-color: darkorange;
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 7px 15px;
+  text-align: center;
+  border-radius: 0.25em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+}
+.clickCart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cart {
+  font-size: 12px;
+  background: linear-gradient(to right, darkblue, darkorange) right;
+  padding: 0 15px;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 30px;
+  background-size: 200px;
+  transition: 0.5s ease-out;
+}
+.cart:hover {
+  background-position: left;
+  border: none;
+}
+/* Set up cart hover đổi màu từ trái sang phải */
+.list-menu ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.list-menu ul li:first-child {
+  color: darkorange;
+}
+.list-sub {
+  list-style: none;
+}
+.list-sub li {
+  padding: 10px 0;
+  border-style: solid none solid none;
+  border-width: 0 0 1px 0;
+}
+/* -------- */
+.grid-banner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px;
+}
+.grid-banner1 {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 4;
+  background-image: url("https://newshop.vn/public/uploads/slider-box/90f4595dbac8d2d9783ac26b46f4570e.jpg");
+  background-repeat: round;
+  background-size: contain;
+  background-position: top;
+}
+
+.grid-banner2 {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://theme.hstatic.net/1000373675/1000745929/14/blog_banner_2.png?v=10");
+}
+.grid-banner3 {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://newshop.vn/public/uploads/slider-box/591b9f8bc1b6997002109a84f7d5433e.jpg");
+}
+.grid-banner5 {
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+
+  width: 100%;
+  background-image: url("https://newshop.vn/public/uploads/slider-box/42af6237550987619df092c0e3c1c350.jpg");
+}
